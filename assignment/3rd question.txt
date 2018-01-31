@@ -1,0 +1,2 @@
+For the third question ,according to my point of view if the user click on his profile pic that time no need to enter 
+the user name or mail id so only the user will enter his password.

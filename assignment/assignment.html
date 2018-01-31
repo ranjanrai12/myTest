@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="myfile.css">
+ 
+</head>
+<body>
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <a href="#"><img src="slack1.png" height="30px" width="106px"></span> 
+                    <h4 class="modal-title" id="myModalLabel"></h4></a>
+            </div>
+            <ul>
+            <div class="modal-body" style="background-color: #f9f9f9">
+               <h1><a href="#">Product</a></h1>
+               <h1><a href="#">Pricing</a></h1>
+               <h1><a href="#">Support</a></h1>
+               <h1><a href="#">Download the Slack app</a></h1>
+            </div>
+            </ul>
+            <div class="modal-footer" style="text-align: left;color:#fff;background-color: #492d78">
+             <ul>
+                <h1><a href="#">Sign in</a></h1>
+                <h1><a href="#">Create a new workspace</a> </h1>
+            </ul>
+            </div>
+        </div>
+    </div>
+</div> 
+<div id="navbar" class="navbar-fixed-top">  
+<nav class="top bar navbar navbar-default navbar-fixed-top">
+<a href="https://slack.com/" class="logo"><img src="slack.jpg" width="106px" height="70px"></a>
+<ul class="navbar navbar-nav">
+    <li><a href="#">Product</a></li>
+    <li ><a href="#">pricing</a></li>
+    <li ><a href="#">Support</a></li>
+    <li ><a href="#">Download Slack</a>
+    </li>
+    <li ><a href="#">Create a new workspace</a></li>
+    <li><a href="#">Find your workspace</a></li>
+    <li><button class="btn btn-lg">Sign in</button></li>
+      <button data-toggle="modal" data-target="#basicModal" class="mobile_btn btn btn-primary">
+      Contact Us</button>
+</ul>
+</nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="wall col-sm-6 col-md-4 col-md-offset-4"><span class="glyphicon glyphicon-info-sign" style="color: #2d9ee0"></span>
+            You need to sign in to see this page.</div>
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall" align="middle">
+                <a href="#"><img class="profile-img" src="user.png" alt="useer image" height="96px" width="96px" align="middle"></a>
+                 <h1 class="text-center login-title">Sign in to Tapzo</h1>
+                <p class="text-center">tapzo.slack.com</p>
+                <form class="form-signin">
+                <p><input type="text" class="form-control" placeholder="you@example.com" required autofocus></p>
+                <p><input type="password" class="form-control" placeholder="Password" required></p>
+                <button class="btn btn-lg btn-success btn-block" type="submit">
+                    Sign in</button>
+                <label class="checkbox pull-left">
+                    <input type="checkbox" value="remember-me">
+                    Remember me
+                </label>
+                <span class="clearfix"></span>
+                <a href="#" class="pull-left need-help">forgot password</a>
+                <a href="#" class="pull-right need-help">Forgot which email you used?</a>
+                </form>
+            </div>
+           
+        </div>
+
+    </div>
+    <div class="content col-sm-6 col-md-4 col-md-offset-4">
+       <p>
+          <span class="bold">Don't have an account on this workspace yet?</span>
+       </p>
+       <p>Contact the workspace administrator for an invitation</p>
+       <p>Trying to create a workspace?
+        <a href="#">Create a new workspace</a>
+       </p>
+    </div>
+</div>
+<footer >
+    <section class="footer_link">
+        <div class="grid">
+            <div class="col list">
+                <ul>
+                    <li style="color: #ff9000">USING SLACK</li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Slack Guides</a></li>
+                    <li><a href="#">App Directory</a></li>
+                    <li><a href="#">API</a></li>
+                </ul>
+            </div>
+            <div class="col list">
+                <ul>
+                    <li style="color: #e32072">SLACK </li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Customers</li>
+                    <li><a href="#">Developers</li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Slack Shop</a></li>
+                </ul>
+            </div>
+            <div class="col list">
+               <ul>
+                   <li style="color: #2ea664">LEGAL</li>
+                   <li><a href="#">Privacy</a></li>
+                   <li><a href="#">Security</a></li>
+                   <li><a href="#">Terms of Service</a></li>
+                   <li><a href="#">Policies</a></li>
+               </ul> 
+            </div>
+            <div class="col list">
+                <ul>
+                    <li style="color: #4b6bc6">HANDY LINKS</li>
+                    <li><a href="#">Download desktop app</a></li>
+                    <li><a href="#">Download mobile app</a></li>
+                    <li><a href="#">Brand Guidelines</a></li>
+                    <li><a href="#">Slack at Work</a></li>
+                    <li><a href="#">Status</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> 
+    <div class="footnote">
+        <section>
+            <a href="#"><img src="slackhome.png" height="25px" widht="16px" title="slack_home_icon"></a>
+            <ul>
+               <li><a href="#">contact us</a></li>
+               <li><a href="#"><img src="twitter.png" width ="25px" height="24px" ></a></li>
+               <li><a href="#"><img src="youtube.png "width ="25px" height="24px"></a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+</body>
+</html>
